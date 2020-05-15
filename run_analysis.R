@@ -43,6 +43,6 @@ summarydata <- rbind(testfinal, trainfinal) %>%
             summarise(mean(value))
 
 ##Step 6. Write output to file
-write.table(summarydata,"summarydata.txt")
+write.table(summarydata,"summarydata.txt", row.names = FALSE)
 
 
