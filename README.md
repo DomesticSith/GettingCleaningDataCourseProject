@@ -1,5 +1,5 @@
 # GettingCleaningDataCourseProject
-### End Project Sumbission for the "Getting and Cleaning Data"" Course on Coursera
+### End Project Submission for the "Getting and Cleaning Data"" Course on Coursera
 
 The mandate for the project was to write a script in R which will  
 
