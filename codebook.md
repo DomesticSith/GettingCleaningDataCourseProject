@@ -1,7 +1,8 @@
 # Codebook
 ## End Project Submission for the 
-## "Getting and Cleaning Data"" Course on Coursera
+## "Getting and Cleaning Data" Course on Coursera
 
+***
 ### Purpose of this document
 This purpose of this document is to provide detail in three areas:  
 1. The source of the raw data used in the course project  
@@ -78,12 +79,89 @@ Write the output to a text file.
 ***
 ### 3. Output File
 
-Column | Name     | Class     | Possible Values
--------|----------|-----------|----------------
-1      | activity | character | WALKING
-       |          |           | WALKING_UPSTAIRS  
-       |          |           | WALKING_DOWNSTAIRS  
- | | | SITTING  
- | | | STANDING  
- | | | LAYING  
-2 | subjectid | integer | 1 to 30
+
+Column | Name           |  Class 
+-------|----------------|--------
+1      | activity       | character (see below for 6 possible values)
+2      | subjectid      | integer (range 1:30)
+3      | variable       | character (see below for 66 possible values)
+4      | mean(variable) | numeric
+
+
+**activity possible values:**  
+WALKING  
+WALKING_UPSTAIRS  
+WALKING_DOWNSTAIRS  
+SITTING  
+STANDING  
+LAYING  
+
+**variable possible values:**  
+Please refer to the source location link above for a full description of each measurement.  
+tBodyAcc-mean()-X  
+tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Z  
+tBodyAcc-std()-X  
+tBodyAcc-std()-Y  
+tBodyAcc-std()-Z  
+tGravityAcc-mean()-X  
+tGravityAcc-mean()-Y  
+tGravityAcc-mean()-Z  
+tGravityAcc-std()-X  
+tGravityAcc-std()-Y  
+tGravityAcc-std()-Z  
+tBodyAccJerk-mean()-X  
+tBodyAccJerk-mean()-Y  
+tBodyAccJerk-mean()-Z  
+tBodyAccJerk-std()-X  
+tBodyAccJerk-std()-Y  
+tBodyAccJerk-std()-Z  
+tBodyGyro-mean()-X  
+tBodyGyro-mean()-Y  
+tBodyGyro-mean()-Z  
+tBodyGyro-std()-X  
+tBodyGyro-std()-Y  
+tBodyGyro-std()-Z  
+tBodyGyroJerk-mean()-X  
+tBodyGyroJerk-mean()-Y  
+tBodyGyroJerk-mean()-Z  
+tBodyGyroJerk-std()-X  
+tBodyGyroJerk-std()-Y  
+tBodyGyroJerk-std()-Z  
+tBodyAccMag-mean()  
+tBodyAccMag-std()  
+tGravityAccMag-mean()  
+tGravityAccMag-std()  
+tBodyAccJerkMag-mean()  
+tBodyAccJerkMag-std()  
+tBodyGyroMag-mean()  
+tBodyGyroMag-std()  
+tBodyGyroJerkMag-mean()  
+tBodyGyroJerkMag-std()  
+fBodyAcc-mean()-X  
+fBodyAcc-mean()-Y  
+fBodyAcc-mean()-Z  
+fBodyAcc-std()-X  
+fBodyAcc-std()-Y  
+fBodyAcc-std()-Z  
+fBodyAccJerk-mean()-X  
+fBodyAccJerk-mean()-Y  
+fBodyAccJerk-mean()-Z  
+fBodyAccJerk-std()-X  
+fBodyAccJerk-std()-Y  
+fBodyAccJerk-std()-Z  
+fBodyGyro-mean()-X  
+fBodyGyro-mean()-Y  
+fBodyGyro-mean()-Z  
+fBodyGyro-std()-X  
+fBodyGyro-std()-Y  
+fBodyGyro-std()-Z  
+fBodyAccMag-mean()  
+fBodyAccMag-std()  
+fBodyBodyAccJerkMag-mean()  
+fBodyBodyAccJerkMag-std()  
+fBodyBodyGyroMag-mean()  
+fBodyBodyGyroMag-std()  
+fBodyBodyGyroJerkMag-mean()  
+fBodyBodyGyroJerkMag-std()  
+ 
